@@ -1,0 +1,40 @@
+#container {
+    background-color:#1B345D ;
+    height: 900px;
+    width: 900px;
+    padding: 5px;
+}
+
+#header {
+    background-color: #CF3036;
+    width: 99%;
+    height: 7%;
+    margin: 5px 5px 5px 5px;
+	border-radius: 10px;
+}
+
+#side-bar {
+    background-color: #297D8C;
+    width: 20%;
+    height: 20%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 5px 5px;
+	border-radius: 10px;
+}
+
+#info-bar {
+    background-color: black;
+    width: 77%;
+    height: 80%;
+    display: inline-block;
+    margin: 15px 5px auto;
+	border-radius: 10px;
+}
+
+#footer {
+    background-color: #5D6673;
+    padding: 10px;
+    margin: 5px;
+	border-radius: 20px;
+}

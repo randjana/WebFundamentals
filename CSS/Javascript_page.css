@@ -1,0 +1,42 @@
+#container{
+    background-color:#CF3036;
+    width:900px;
+    height:930px;
+    border:1px solid;
+}
+
+#header{
+    height:7%;
+    background-color:pink;
+    margin:5px;
+    border-radius:25px;
+}
+
+#main-content{
+
+}
+
+#side-bar{
+    background-color:gray;
+    height:25px;
+    width:2%;
+    margin:5px;
+    display:inline-block;
+    border-radius:25px;
+}
+
+#info{
+   background-color:black;
+   height:780px;
+   width:50%;
+   margin:5px;
+   display:inline-block;
+   border-radius:25px;
+}
+
+#footer{
+  height:5%;
+  background-color:gray;
+  margin:auto 5px 5px 5px;
+  border-radius:25px;
+}

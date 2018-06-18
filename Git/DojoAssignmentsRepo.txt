@@ -1,0 +1,11 @@
+cd DojoAssignments
+git init
+git add .
+git commit -m "added initial structure for assignments"
+git remote add origin https://github.com/randjanas/DojoAssignments.git
+git push -u origin master
+vi readme.md
+git status
+git add .
+git commit -m "added readme.md"
+git push -u origin master

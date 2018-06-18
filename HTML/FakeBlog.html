@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <meta charset="UTF-8">
+          <title>Ranjana Sundar's fake blog</title>
+          <meta name="description" content="A fake blog page">
+          <link rel="stylesheet" type="text/css" href="FakeBlog.css">
+    </head>
+    <body>
+        <div id = "wrapper">
+            <div id = "header">
+                <h1 id = "title">Divya Sundar's grades</h1>
+                <img src="images\divya.jpg" height="256" width="256" alt="My profile image"/>
+                <br><br>
+            </div>
+            <div id = "main-content">
+                <p>
+                  Divya's achievement reports for the
+                  first term in the 2016-17 year
+                </p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Subject</th>
+                            <th>Marks</th>
+                            <th>Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mathematics</td>
+                            <td>94</td>
+                            <td>A</td>
+                        </tr>
+                        <tr>
+                            <td>Science</td>
+                            <td>98</td>
+                            <td>A+</td>
+                        </tr>
+                        <tr>
+                            <td>Literature</td>
+                            <td>90</td>
+                            <td>A-</td>
+                        </tr>
+                        <tr>
+                            <td>Logic</td>
+                            <td>92</td>
+                            <td>A</td>
+                        </tr>
+                        <tr>
+                            <td>History</td>
+                            <td>89</td>
+                            <td>A-</td>
+                        </tr>
+                        <tr>
+                            <td>Grammar</td>
+                            <td>85</td>
+                            <td>B</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div id = "gradeEqui">
+                    <p>Grade Equivalent:<p>
+                        <ul>
+                            <li>A+95% and above</li>
+                            <li>A&nbsp;&nbsp;&nbsp;&nbsp; 90 - 94%</li>
+                            <li>A-&nbsp;&nbsp;&nbsp; 86 - 89%</li>
+                            <li>B+&nbsp;&nbsp; 80 - 85%</li>
+                            <li>B&nbsp;&nbsp;&nbsp;&nbsp;  76 - 79%</li>
+                        </ul>
+                </div>
+        </div>
+        <div class="hline" style="background-color:black;color:black;height:1px"></div>
+        <div id = "form">
+            <form action = "submit">
+                  <p>Please enter your email address for further communications</p>
+                  <label>Email<input type="text" id="email" name="emai"></label>
+                  <p>Do you want an electronic copy of the report ?</p>
+                  <input type="radio" name="emailreq" value="y"> Yes
+                  <input type="radio" name="emailreq" value="n"> No<br>
+                  <p>Our school is planning to introduce new activities</p>
+                  <p>Your opinion really matters</p>
+                  <p>Please select all the activities that might interest you</p>
+                  <label for="spanish">Spanish</label>
+                  <input type="checkbox" id="spanish" name="activity" value="spanish">
+                  <label for="chess">Chess</label>
+                  <input type="checkbox" id="chess" name="activity" value="chess">
+                  <label for="clayart">Clay Art</label>
+                  <input type="checkbox" id="clayart" name="activity" value="clayart">
+                  <label for="painting">Painting</label>
+                  <input type="checkbox" id="painting" name="activity" value="painting">
+                  <label for="volley">Volleyball</label>
+                  <input type="checkbox" id="volley" name="activity" value="volley"><br><br>
+                  <input type="submit" value="Submit">
+              </form>
+        </div>
+        </div>
+    </body>
+</html>

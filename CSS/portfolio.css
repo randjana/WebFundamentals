@@ -1,0 +1,120 @@
+*{
+  margin:0px;
+  padding:0px;
+  font-family:Arial, verdana, sans-serif;
+}
+
+#wrapper{
+  width: 960px;
+  height: 1000px;
+}
+
+#header{
+  background-color:white;
+  width:970px;
+  padding:5px;
+}
+
+#header h1{
+  display:inline;
+}
+
+#header h2{
+  display:inline;
+  float: right;
+}
+
+#main{
+  background-color:#29292B;
+  width:970px;
+  height:970px;
+  position:relative;
+  background: -webkit-radial-gradient(#6f5964, #1f0f13); /* Safari 5.1- 6.0 */
+  background: -o-radial-gradient(#6f5964, #1f0f13); /* Opera 11.6-12.0 */
+  background: -moz-radial-gradient(#6f5964, #1f0f13); /* Firefox 3.6-15 */
+  background: radial-gradient(#6f5964, #1f0f13); /* Standard syntax */
+}
+
+#main .about img{
+  background-color: gray;
+  width:40%;
+  display:inline-block;
+  margin:15px;
+  height:275px;
+  border:2px solid white;
+}
+
+#main .about .info-section{
+  height:275px;
+  width:55%;
+  display: inline-block;
+  background-color:white;
+  vertical-align: top;
+  margin: 15px auto;
+  padding:5px;
+
+}
+#main .about .info-section p{
+  padding:10px;
+  text-align: justify;
+}
+
+#main .info-header{
+  background-color:gray;
+  vertical-align: top;
+  padding-left:5px;
+  margin:0 auto;
+  padding:5px;
+}
+
+#main .projects {
+  background-color:#F0E9EF;
+  margin:15px;
+  width:290px;
+  display:inline-block;
+  height:610px;
+  vertical-align: top;
+  position:relative;
+}
+
+#main .projects .projects_main_img{
+  width:100%;
+}
+
+#main .projects .projects_tech{
+  margin:10px auto;
+  padding:0px;
+  bottom:15px;
+  position:absolute;
+}
+
+#main .projects .projects_tech img{
+  width:15%;
+  padding:5px;
+}
+
+#main .projects .info-content{
+  padding:10px;
+  text-align: justify;
+}
+
+#main .projects .projects_tech button{
+  border:1px solid grey;
+  font-size:16px;
+  color:#fff;
+  padding:6px 10px;
+  background-color:green;
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0,2),0 6px 20px 0 rgba(0,0,0,0,19));
+  margin:0px 100px;
+}
+
+#footer{
+  text-align: center;
+  padding: 10px;
+}
+
+#footer img{
+  width:25px;
+  height: 25px;
+  padding:5px;
+}

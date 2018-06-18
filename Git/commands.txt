@@ -1,0 +1,17 @@
+cd Desktop
+mkdir test
+cd test
+touch index.html
+touch styles.css
+touch aboutMe.txt
+git init
+git add aboutMe.txt
+git commit -m "added aboutMe.txt"
+git add aboutMe.txt
+git commit -m "updated aboutMe"
+git add aboutMe.txt
+git commit -m "added favorite movie to aboutMe"
+git log
+git revert -n 3aaacef
+git add aboutMe
+git commit -m "modified aboutMe"

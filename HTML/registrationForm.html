@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My registration</title>
+    </head>
+<body>
+    <form action="process.php" method="post">
+        <table>
+            <thead><b>My Registration Form</b></thead>
+            <br>
+            <tbody>
+                <tr></br></tr>
+                <tr>
+                    <td>
+                        <label>First Name:<input type="text" name="fname"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Last Name:<input type="text" name="lname"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Email:<input type="text" name="email"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Password:<input type="password" name="pwd"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Confirm Password:<input type="text" name="cfrmpwd"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Date:<input type="date" name="datetime"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label><input type="radio" name="gender" value="Male">Male</label>
+                  		  <label><input type="radio" name="gender" value="Female">Female</label>
+                        <label><input type="radio" name="gender" value="Other">Other</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>A short description about yourself</label><br>
+        		            <textarea name="description"></textarea>
+        		        </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Favorite Language</label>
+                        <select name="favlang">
+                            <option value="Javascript">Javascript</option>
+                            <option value="Java">Java</option>
+                            <option value="Python">Python</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                      <input type="submit" value="Submit">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>

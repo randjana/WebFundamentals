@@ -1,0 +1,39 @@
+*{
+  margin:0px;
+  padding:0px;
+  font-family:Arial, verdana, sans-serif;
+}
+
+body{
+  width:970px;
+  height:970px;
+  background-color: #245076;
+}
+
+#header{
+
+}
+
+#main-menu{
+    width:670px;
+    height:auto;
+    margin:auto 100px;
+    background-color:#457DAC;
+    border-radius:8px;
+}
+
+#main-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+}
+
+#main-menu ul li{
+    display:inline;
+}
+
+#main-menu ul li a {
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
